@@ -1,0 +1,135 @@
+header,div{
+    /*  border:1px solid black;*/
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+header{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header .container .logo{
+    width: 50%;
+    display: flex;
+    
+}
+header .container .logo img{
+    max-width: 90px;
+}
+header .container .icons{
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-around;
+}
+header .container .icons .icon{
+    font-size: 13px;
+    color: #757575;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+
+}
+header .container .icons .icon:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+header .container .icons .icon i{
+    font-size: 15px;
+    align-items: center;
+}
+header .container .btns{
+    display: flex;
+    width:30% ;
+    align-items: center;
+}
+header .container .btns button{
+    border: 1px solid rgb(10,102,194);
+    border-radius: 50px;
+    margin-top: -5px;
+    padding: 5px 10px;
+    background-color: white;
+    font-weight: bold;
+}
+#btn1{
+    color:rgb(10,102,194);
+    margin-right: 10px;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    
+}
+#btn1:hover{
+    background-color: rgb(204,204,204);
+}
+#btn2{
+    color: white;
+    background-color: rgb(10,102,194);
+    font-size: 15px;
+    width: 100px;
+    height:40px;
+}
+#btn2:hover{
+    background-color: rgb(1,33,76);
+}
+header .container .icons::after{
+    content: "";
+    margin: 15px;
+    margin-left: 5px;
+    height: 30px;
+    align-items: center;
+    margin-top: 10px;
+    border-left:1px solid #757575 ;
+}
+section{
+    border:1px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+section div{
+    border: 5px solid blue;
+    margin: 10px;
+}
+#fd,#sd{
+    width: 50%  ;
+}
+#fd{
+    width: 40%;
+}
+#title{
+    font-size: 40px;
+    color: #757575;
+}
+#fd a{
+    border: 2px solid grey;
+    border-radius: 30px;
+    padding: 10px;
+    display: block;
+    width: 60%;
+    text-align: center;
+}
+#fd a:hover{
+    background-color:#d1d0d0;
+}
+#sd{
+    height: 500px;
+    background-image: url("./../images/cover_img.svg");
+    background-repeat: no-repeat ;
+    background-size:100% 100%;
+}
+#fd p, #title , #fd a{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
